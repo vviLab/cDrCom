@@ -94,7 +94,7 @@ t=$(ping -c 2 114.114.114.119 -W 3 | grep -c seq)
 if [ $t -eq $l ]
 then
     echo "Network is broken. Routter is trying to reconnect."
-    pid_num=$(ps | grep 'Drcom.py' | sed '$d' |sed 's/.root.*//g' | sed 's/ //g')
+    pid_num=$(ps | grep 'Drcom.py' | sed 's/.root.*//g' | sed 's/ //g')
     if [ ! $pid_num ]
     then
         echo "Start Drcom now..."

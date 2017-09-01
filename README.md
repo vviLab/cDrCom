@@ -7,8 +7,8 @@
 
 > 固件： [OpenWrt 14.09](./MT7620A.bin)
 
-> 客户端：[Drcom.py](./Drcom.py) - 办公区<br>
-         [Drcom_dorm.py](./Drcom_dorm.py) - 宿舍（请下载后自行改名为Drcom.py）
+> 客户端：[Drcom.py](./Drcom.py) - 办公区
+[Drcom_dorm.py](./Drcom_dorm.py) - 宿舍（请下载后自行改名为Drcom.py）
 
 > 脑子：请带上脑子阅读本文
 

@@ -15,15 +15,16 @@ Revised by why1gz 2017.4.13
 '''
 
 # CONFIG
-server = '202.202.0.163'
-username='你的账号'
-password='你的密码'
+server = '202.202.0.180'
+# 此处添加你的账号、密码
+username='YOURNAME'
+password='YOURPASSWORD'
 CONTROLCHECKSTATUS = '\x20'
 ADAPTERNUM = '\x06'
-host_ip = '172.24.61.7'
+host_ip = '172.24.48.3'
 IPDOG = '\x01'
 host_name = 'GILIGILIEYE'
-PRIMARY_DNS = '61.128.128.68'
+PRIMARY_DNS = '202.202.0.34'
 dhcp_server = '202.202.0.50'
 AUTH_VERSION = '\x25\x00'
 mac = 0xe094675a9f79
